@@ -2,8 +2,8 @@
 *
 *   raylib game template
 *
-*   <Game title>
-*   <Game description>
+*   <Invaders>
+*   A C/C++ clone of Space Invaders
 *
 *   This game has been created using raylib (www.raylib.com)
 *   raylib is licensed under an unmodified zlib/libpng license (View raylib.h for details)
@@ -24,7 +24,6 @@
 // NOTE: Those variables are shared between modules through screens.h
 //----------------------------------------------------------------------------------
 GameScreen currentScreen = LOGO;
-Font font = { 0 };
 Music music = { 0 };
 Sound fxCoin = { 0 };
 
