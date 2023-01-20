@@ -19,6 +19,8 @@
     #include <emscripten/emscripten.h>
 #endif
 
+#include "objects/player.h"
+
 //----------------------------------------------------------------------------------
 // Shared Variables Definition (global)
 // NOTE: Those variables are shared between modules through screens.h
@@ -63,7 +65,6 @@ int main(void)
     InitAudioDevice();      // Initialize audio device
 
     // Load global data (assets that must be available in all screens, i.e. font)
-    font = LoadFont("resources/mecha.png");
     music = LoadMusicStream("resources/ambient.ogg");
     fxCoin = LoadSound("resources/coin.wav");
 
@@ -100,7 +101,7 @@ int main(void)
     }
 
     // Unload global data loaded
-    UnloadFont(font);
+    
     UnloadMusicStream(music);
     UnloadSound(fxCoin);
 
