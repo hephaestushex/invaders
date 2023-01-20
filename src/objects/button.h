@@ -4,7 +4,7 @@ typedef struct button
 {
     Rectangle rect;
     Color color;
-};
+} button;
 
 //Function to check if the button has been clicked, uses array, and returns which button was pressed.
 
@@ -24,4 +24,5 @@ int ButtonClicked(button array[])
 
     return buttonID;
 }
+
 

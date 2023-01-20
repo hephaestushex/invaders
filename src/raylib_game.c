@@ -20,6 +20,7 @@
 #endif
 
 #include "objects/player.h"
+#include "objects/button.h"
 
 //----------------------------------------------------------------------------------
 // Shared Variables Definition (global)
