@@ -26,20 +26,15 @@
 #ifndef SCREENS_H
 #define SCREENS_H
 
-#include "objects/button.h"
-#include "objects/player.h"
 
 
-// The PLAY button has the ID of 0
-#define PLAY 0
-#define BUTTON_COUNT 1
+
+
 
 //----------------------------------------------------------------------------------
 // Types and Structures Definition
 //----------------------------------------------------------------------------------
 typedef enum GameScreen { UNKNOWN = -1, LOGO = 0, TITLE, OPTIONS, GAMEPLAY, ENDING } GameScreen;
-
-button buttons [BUTTON_COUNT];
 
 //----------------------------------------------------------------------------------
 // Global Variables Declaration (shared by several modules)

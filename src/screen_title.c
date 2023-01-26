@@ -44,11 +44,6 @@ void InitTitleScreen(void)
     // TODO: Initialize TITLE screen variables here!
     framesCounter = 0;
     finishScreen = 0;
-
-    buttons[PLAY].rect.x = GetScreenWidth() / 4;
-    buttons[PLAY].rect.y = GetScreenHeight() * 3 / 4;
-    buttons[PLAY].rect.width = 32;
-    buttons[PLAY].rect.height = 32;
 }
 
 // Title Screen Update logic
